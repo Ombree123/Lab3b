@@ -9,8 +9,13 @@ namespace Lab3b
     {
         static void Main(string[] args)
         {
+            Article articles = new Article();
 
-            Article article = new Article();
+            //Nom Article
+            Console.WriteLine("Test Nom Article");
+
+            articles.ajouterNomArticle("nomArticle");
+
 
 
 

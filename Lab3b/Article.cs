@@ -10,21 +10,20 @@ namespace Lab3b
         private string nom; 
         private float valeur;
 
-        public static void ajouterNomArticle (string n)
-       {
-        
-
+        public void ajouterNomArticle (string n)
+        {
+            nom = n;
         }
-        public static void ajouterValeurArticle(float v)
+        public void ajouterValeurArticle(float v)
         {
         }
 
-        public static float lireValeurArticle()
+        public float lireValeurArticle()
         {
             
         }
 
-        public static string lireDescriptionArticle()
+        public string lireDescriptionArticle()
         {
 
         }
