@@ -13,7 +13,7 @@ namespace Lab3b
 
         public void ajouterArticleVendu(Article a)
         {
-            article
+           
         }
 
         public void ajouterQuantiteVendue(int q)
@@ -22,10 +22,12 @@ namespace Lab3b
 
         public float calculerValeurVente()
         {
+            return (1);
         }
 
         public string lireDescriptionVente()
         {
+            return ("placeholder");
         }
 
     }

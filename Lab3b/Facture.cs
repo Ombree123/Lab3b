@@ -15,11 +15,12 @@ namespace Lab3b
 
         private float calculerMontantFacture()
         {
+            return (1);
         }
 
         public string lireFacture()
         {
-
+            return ("placeholder");
         }
     }
 }

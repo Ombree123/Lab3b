@@ -16,16 +16,20 @@ namespace Lab3b
         }
         public void ajouterValeurArticle(float v)
         {
+            if (v >= 0)
+                valeur = v;
+            else
+                Console.WriteLine("ERREUR valeur négative");
         }
 
         public float lireValeurArticle()
         {
-            
+            return (1);
         }
 
         public string lireDescriptionArticle()
         {
-
+            return ("Nom : "+nom+" Valeur : "+valeur);
         }
 
 
