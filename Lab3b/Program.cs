@@ -12,7 +12,6 @@ namespace Lab3b
 
             Article article = new Article();
 
-            Console.WriteLine("test");
 
 
 
