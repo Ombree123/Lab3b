@@ -13,16 +13,21 @@ namespace Lab3b
 
             //Nom Article
             Console.WriteLine("Test Nom Article");
-
             articles.ajouterNomArticle("nomArticle");
 
+            //Test Valeur Article 1
             Console.WriteLine("Test Valeur : 1");
             articles.ajouterValeurArticle(1);
 
-            Console.WriteLine("Test Valeur Négative");
+            //Test Valeur Article Negative
+            Console.WriteLine("Test Valeur Negative");
             articles.ajouterValeurArticle(-1);
 
+            //Lecture Valeur Article
+            articles.lireDescriptionArticle();
             Console.ReadLine();
+
+            
 
 
 
