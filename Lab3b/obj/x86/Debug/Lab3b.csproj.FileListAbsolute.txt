@@ -1,0 +1,4 @@
+c:\users\administrateur\documents\visual studio 2010\Projects\Lab3b\Lab3b\bin\Debug\Lab3b.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Lab3b\Lab3b\bin\Debug\Lab3b.pdb
+c:\users\administrateur\documents\visual studio 2010\Projects\Lab3b\Lab3b\obj\x86\Debug\Lab3b.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Lab3b\Lab3b\obj\x86\Debug\Lab3b.pdb
