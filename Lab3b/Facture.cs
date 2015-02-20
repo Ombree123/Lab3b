@@ -7,15 +7,26 @@ namespace Lab3b
 {
     class Facture
     {
-        private Vente[] ventes;
+        private Vente[] ventes = new Vente[100];
 
         public void ajouterArticleVendu(Vente v)
         {
+            for (int i = 0; i < 100; i++)
+            {
+                ventes[i] = v;
+                i++;
+            }
         }
 
         private float calculerMontantFacture()
         {
-            return (1);
+            float montant=0;
+
+            for (int i = 0; i < 100; i++)
+			{
+                montant += ventes[i].calculerValeurVente();
+			}
+            return (montant);
         }
 
         public string lireFacture()

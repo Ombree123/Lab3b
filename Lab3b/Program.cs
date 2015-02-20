@@ -13,7 +13,7 @@ namespace Lab3b
 
             //Nom Article
             Console.WriteLine("Test Nom Article");
-            articles.ajouterNomArticle("nomArticle");
+            articles.ajouterNomArticle("nomArticle2");
 
             //Test Valeur Article 1
             
@@ -59,7 +59,19 @@ namespace Lab3b
             Console.WriteLine("\nLire Description Vente");
             Console.WriteLine(vente.lireDescriptionVente());
 
-            Console.ReadLine();
+            //Ajouter Article Vendu
+            Console.WriteLine("\nAjouter Article Vendu");
+            Facture facture = new Facture();
+            facture.ajouterArticleVendu(vente);
+
+            articles.ajouterNomArticle("nomArticle2");
+            facture.ajouterArticleVendu(vente);
+
+
+
+
+
+            
             
 
             
