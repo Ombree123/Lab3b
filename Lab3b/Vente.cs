@@ -31,7 +31,7 @@ namespace Lab3b
 
         public string lireDescriptionVente()
         {
-            return (quantite+" d'articles se sont vendu pour "+article.lireValeurArticle()+"$ chaques, pour un total de "+quantite*article.lireValeurArticle());
+            return (quantite+" d'articles se sont vendu pour "+article.lireValeurArticle()+"$ chaques, pour un total de "+quantite*article.lireValeurArticle()+"$");
         }
 
     }

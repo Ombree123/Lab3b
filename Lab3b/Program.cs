@@ -33,7 +33,6 @@ namespace Lab3b
             //Lecture Description Article
             Console.WriteLine("\nLire Description Article");
             Console.WriteLine(articles.lireDescriptionArticle());
-            Console.ReadLine();
 
 
             Vente vente = new Vente();
@@ -54,11 +53,13 @@ namespace Lab3b
 
             //Calculer Valeur Vente
             Console.WriteLine("\nCalculer Valeur Vente");
-            Console.WriteLine("La valeur de la vente est" + vente.calculerValeurVente()+"$");
+            Console.WriteLine("La valeur de la vente est " + vente.calculerValeurVente()+"$");
 
             //Lire Description Vente
             Console.WriteLine("\nLire Description Vente");
             Console.WriteLine(vente.lireDescriptionVente());
+
+            Console.ReadLine();
             
 
             
