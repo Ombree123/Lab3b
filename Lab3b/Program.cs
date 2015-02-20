@@ -25,6 +25,7 @@ namespace Lab3b
 
             //Lecture Valeur Article
             articles.lireDescriptionArticle();
+            Console.WriteLine(articles.lireDescriptionArticle());
             Console.ReadLine();
 
             
