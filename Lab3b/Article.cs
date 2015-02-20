@@ -24,7 +24,7 @@ namespace Lab3b
 
         public float lireValeurArticle()
         {
-            return (1);
+            return (valeur);
         }
 
         public string lireDescriptionArticle()
